@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(26, 59, 59);
 }
 
 .container {
@@ -14,22 +15,27 @@ body {
 }
 
 table {
-    background-color: white;
+    background-color: aquamarine;
     text-align: center;
     width: 500px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
 }
 
 p {
     font-size: 15px;
+    font-weight: bold;
 }
 
 th, td {
-    border: 1px solid black;
+    border: 1px solid aqua;
+    border-radius: 10px;
     width: 100px;
     height: 50px;
 }
 
 
-tr:hover {
-    background-color: red;
+.tr:hover {
+    background-color: rgba(16, 67, 67, 0.5);
 }
+
